@@ -6,6 +6,7 @@ import (
 
 func main() {
 	//Explicit declaration of int
+	//https://golang.org/pkg/fmt/ for more related to %<placeholder>
 
 	var aInt int = 24
 	fmt.Printf("The value of aInt is %d", aInt)
@@ -14,6 +15,11 @@ func main() {
 	bInt := 34
 	fmt.Printf("\nThe value of bInt is %d", bInt)
 
-	//type
+	//Find the Type Print type
+	aFloat := 24.848484
+	fmt.Printf("\nThe type of %f is %T", aFloat, aFloat)
+
+	abool := true
+	fmt.Printf("\nThe type of %t is %T", abool, abool)
 
 }
