@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main1() {
 	readerEntity := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter your name ")
 	userName, _ := readerEntity.ReadString('\n')
